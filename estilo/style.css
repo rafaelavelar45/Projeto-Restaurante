@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Playwrite+ES+Deco:wght@100..400&family=Satisfy&family=Tangerine:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor1: #f39a0b;
+  --cor2: #463d30;
+  --cor3: #33302c;
+}
+
+header {
+  color: var(--cor1);
+  font-size: 1.5em;
+  background-color: var(--cor2);
+  background-image: url(/imagem/imagem\ comida1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header > h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: Satisfy, "cursive";
+}
+
+nav {
+  display: inline-block;
+  padding-left: 6px;
+  transition: 1.7s;
+}
+
+nav:hover {
+  background-color: #463d30;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+section {
+  font-family: Annie Use Your Telescope;
+  font-size: 1.7em;
+}
+section > h2 {
+  font-family: Satisfy, "cursive";
+  padding: 10px;
+}
+
+main {
+  padding: 100px;
+  line-height: 40px;
+  background-color: var(--cor2);
+  color: var(--cor1);
+  transition: 2s;
+}
+
+main > h2 {
+  padding: 50px;
+  font-family: Satisfy, "cursive";
+  font-size: 2.5em;
+}
+
+main > div > p {
+  font-family: Annie Use Your Telescope;
+}
+
+#img {
+  display: flex;
+}
+
+.p > p {
+  margin-right: 30px;
+  font-size: 1.7em;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: var(--cor3);
+  color: #f39a0b;
+}
