@@ -50,11 +50,14 @@ section > h2 {
 }
 
 main {
-  padding: 150px;
+  padding: 50px;
   line-height: 40px;
   background-color: var(--cor2);
   color: var(--cor1);
   transition: 2s;
+  min-width: 320px;
+  max-width: 1920px;
+  overflow: hidden;
 }
 
 main > h2 {
@@ -67,13 +70,15 @@ main > div > p {
   font-family: Annie Use Your Telescope;
 }
 
-#img {
-  display: flex;
+#img{
+
 }
 
-.p > p {
-  margin-right: 30px;
+  #text{
+  font-family: Annie Use Your Telescope;
+  margin-right: 40px;
   font-size: 1.7em;
+  columns: 2;
 }
 
 footer {
