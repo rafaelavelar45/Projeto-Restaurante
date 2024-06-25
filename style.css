@@ -47,7 +47,7 @@ nav:hover {
 
 section {
   font-family: Annie Use Your Telescope;
-  font-size: 1.7em;
+  font-size: 2.5vw;
 }
 section > h2 {
   font-family: Satisfy, "cursive";
@@ -82,7 +82,7 @@ main > div > p {
   #text{
   font-family: Annie Use Your Telescope;
   margin-right: 40px;
-  font-size: 1.7em;
+  font-size: 2.5vw;
   columns: 2;
 }
 
