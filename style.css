@@ -13,7 +13,6 @@
 
 header {
   color: var(--cor1);
-  font-size: 1.5em;
   background-color: var(--cor2);
   background-image: url(imagem/imagemcomida1.jpg);
   background-size: cover;
@@ -23,6 +22,7 @@ header {
 }
 
 header > h1 {
+  font-size: 5em;
   text-align: center;
   padding-bottom: 30px;
   font-family: Satisfy, "cursive";
@@ -30,8 +30,13 @@ header > h1 {
 
 nav {
   display: inline-block;
+  font-size: 1.3em;
   padding-left: 6px;
   transition: 1.7s;
+  background-color: var(--cor3);
+  border: 1px solid rgba(0, 0, 0, 0.103);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
+  border-radius: 5px;
 }
 
 nav:hover {
@@ -71,7 +76,7 @@ main > div > p {
 }
 
 #img{
-
+   margin: 30px;
 }
 
   #text{
